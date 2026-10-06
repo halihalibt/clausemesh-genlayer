@@ -93,4 +93,4 @@ The reverse-response real ordering case confirms Contract A/B history `[1,2]` af
 License: MIT. All submitted clauses become public onchain data. Do not submit private, confidential or sensitive information.
 
 
-Phase 6 COMPLETE. READY FOR INTELLIGENT CONTRACTS SUBMISSION. No external publication or form submission performed.
+Phase 6 COMPLETE. READY FOR INTELLIGENT CONTRACTS SUBMISSION. Public repository: https://github.com/halihalibt/clausemesh-genlayer. GenLayer form submission remains pending.
