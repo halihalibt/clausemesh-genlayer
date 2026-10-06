@@ -11,4 +11,4 @@ Canonical Development / Validation / Submission Network: Stable GenLayer Studion
 5. evidence/phase5-network/real-browser-evidence.json; finalized-result-dom.txt; history-A.txt; history-B.txt; static-runtime.json.
 6. History Contract [1,2] / frontend [2,1]; reload/manual Resume restores original transaction and persistent Matrix.
 
-Public repository/demo URLs are to be supplied after separately authorized publication. No URL is fabricated. Historical evidence is excluded from this core index.
+Public repository: https://github.com/halihalibt/clausemesh-genlayer. A separate live demo belongs to the companion Handshake Map project and is not required for this Intelligent Contracts repository. Historical evidence is excluded from this core index.
