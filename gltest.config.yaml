@@ -1,0 +1,11 @@
+default_network: studionet
+paths:
+  contracts: contracts
+  artifacts: evidence/gltest
+networks:
+  studionet:
+    id: 61999
+    url: https://studio.genlayer.com/api
+    chain_type: studionet
+    leader_only: false
+# Test accounts/signers are supplied locally. No private key is shipped in this repository.

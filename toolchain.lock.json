@@ -1,0 +1,43 @@
+{
+  "verified_at_utc": "2026-10-05",
+  "python_host": "3.12.14",
+  "genvm_release": "v0.2.16",
+  "genvm_release_url": "https://github.com/genlayerlabs/genvm/releases/tag/v0.2.16",
+  "genvm_release_sha256": "4f0b358ec98ec148be9b95cdfb0f0e1a6cbe64da0194fdfac3fffc6f5d1d93e2",
+  "py_genlayer_runner": "1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "py_lib_genlayer_std": "11rhn002yfajawsz7fai6mykznbxkxs6l91iskj5cm82c92qhy3v",
+  "cloudpickle_runner": "1dlk6mnfabi0z7r39635amyfzw8xb6rm8bv4pmgv6ji1bfx9hghd",
+  "cpython_runner": "1bk9g3zgym0rrpd9lk584cxfaa4rg0cz36w6xhzkqdj1m2p4xa9n",
+  "packages": {
+    "genlayer-test": "0.29.2",
+    "genlayer-py": "0.16.3",
+    "genvm-linter": "0.11.0",
+    "pytest": "9.1.1",
+    "cloudpickle": "3.1.2"
+  },
+  "rpc_client_selection": "Latest stable genlayer-py is 0.18.0; stable genlayer-test 0.29.2 requires genlayer-py >=0.13.0,<0.17.0. The compatible stable pin is 0.16.3, with no dependency overrides.",
+  "custom_api": "gl.vm.run_nondet_unsafe(leader_fn, validator_fn)",
+  "runner_current_hash_proof": "https://raw.githubusercontent.com/genlayerlabs/genvm/v0.2.16/runners/support/current/hashes.nix",
+  "runner_hash_proof": "SHA256 from official current/hashes.nix converted to nix32 equals the pinned contract runner and std hashes.",
+  "networks": {
+    "canonical_submission": {
+      "name": "Stable GenLayer Studionet",
+      "rpc": "https://studio.genlayer.com/api",
+      "chain_id": 61999,
+      "eth_chainId_observed": "0xf22f"
+    }
+  },
+  "remote_contract_code_check": "PASS: Studio schema load; Studionet FINALIZED deployment; see evidence/",
+  "genlayer_js": "Deferred to Phase 3; no frontend dependency installed",
+  "specifications": {
+    "PROJECT_BLUEPRINT_V1.md": "b07020a64863909dabe4b75179a533ca422bcde0bcca70746c98fa187a8fb630"
+  },
+  "sources": [
+    "https://pypi.org/pypi/genlayer-test/json",
+    "https://pypi.org/pypi/genlayer-py/json",
+    "https://pypi.org/pypi/genvm-linter/json",
+    "https://api.github.com/repos/genlayerlabs/genvm/releases?per_page=30",
+    "https://docs.genlayer.com/developers/intelligent-contracts/equivalence-principle",
+    "https://docs.genlayer.com/developers/intelligent-contracts/storage"
+  ]
+}

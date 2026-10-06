@@ -1,0 +1,12 @@
+{
+  "tag": "v0.2.16",
+  "url": "https://github.com/genlayerlabs/genvm/releases/tag/v0.2.16",
+  "published_at": "2026-03-10T17:52:40Z",
+  "asset": {
+    "name": "genvm-universal.tar.xz",
+    "size": 216630904,
+    "url": "https://github.com/genlayerlabs/genvm/releases/download/v0.2.16/genvm-universal.tar.xz",
+    "digest": "sha256:4f0b358ec98ec148be9b95cdfb0f0e1a6cbe64da0194fdfac3fffc6f5d1d93e2"
+  },
+  "note": "v0.3.0-rc* tags excluded despite GitHub prerelease=false; selected latest non-RC release."
+}

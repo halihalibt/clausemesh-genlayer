@@ -1,0 +1,37 @@
+ClauseMesh / Handshake Map
+Studionet
+0x6Af7…f69d · Disconnect
+
+Connected wallet: 0x6Af717e486aCc643f5FD048906C48fA82d72f69d
+
+Transaction lifecycle
+
+Response sealed
+
+Transaction ID: 0xed59b56355355dbea6b8c992ad451dfc1f6c54c64f10e022527a596bedc48574
+
+BILATERAL SEMANTIC RECONCILIATION
+
+Make your agreement visible.
+
+Seal each side’s requirements. GenLayer validators reconcile every clause pair into a shared Handshake Map.
+
+Create Workspace
+Label
+Optional · 80 characters maximum
+Counterparty Address
+Party A Clauses
+1–4 clauses · 3–240 characters each
+A1
+Remove Clause A1
+Add Clause
+
+All submitted clauses become public onchain data. Do not submit private, confidential, or sensitive information.
+
+Create & Seal
+My Workspaces
+Phase5 Second
+#2 · READY
+Phase5 First
+#1 · READY
+CLAUSEMESH-V1 · Immutable inputs. Independent validators. Persistent relations.

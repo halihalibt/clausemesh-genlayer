@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "scope": "Curated public Intelligent Contract repository",
+  "files_scanned": 55,
+  "sensitive_findings": [],
+  "contract_source_sha256": "5489c4c66471af9c5bfc5607d8f4640e22ebac0cfca36ce63ee762c038444830",
+  "historical_debug_archives_included": false,
+  "bradbury_debug_material_included": false,
+  "local_git_bundle_included": false,
+  "work_handoff_or_execution_request_files_included": false,
+  "node_modules_included": false,
+  "private_keys_or_seed_phrases_expected": false,
+  "limitations": "Lightweight pattern scan; not an exhaustive security audit."
+}

@@ -1,0 +1,49 @@
+{
+  "contract_tests": {
+    "passed": 139,
+    "failed": 0,
+    "skipped": 0
+  },
+  "frontend_tests": {
+    "passed": 113,
+    "failed": 0,
+    "skipped": 0
+  },
+  "build": "PASS",
+  "typescript_errors": 0,
+  "vite_warning": "Main JS chunk 770.71 kB exceeds 500 kB advisory; unchanged product code, no architecture modification",
+  "production_runtime": "Real createIntegration -> genlayer-js Studionet, injected wallet",
+  "runtime_import_graph": [
+    "src/App.tsx",
+    "src/components/ClauseInputs.tsx",
+    "src/components/Results.tsx",
+    "src/lib/contract.ts",
+    "src/lib/errors.ts",
+    "src/lib/genlayer.ts",
+    "src/lib/integration.ts",
+    "src/lib/rpc.ts",
+    "src/lib/transactions.ts",
+    "src/lib/wallet.ts",
+    "src/main.tsx",
+    "src/styles.css"
+  ],
+  "preview_fake_imported_by_production": false,
+  "backend_database_business_server_added": false,
+  "contract_A_B_byte_equal": true,
+  "contract_changed": false,
+  "frontend_production_source_changed": false,
+  "production_assets_same_as_accepted_phase5": true,
+  "production_output_sha256": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "index.html": "c0a0285b544f67d7ecfceba95a52aa8ef54e08422470acaffebb6e91cb72fb8f",
+    "assets/index-DdvE7SWf.js": "fd4556fe720581e6620f1756f8820372110eb44d57771211ff6068163b6c722e",
+    "assets/ccip-DSIZ_hbo.js": "05bdd5fbccf7f9291674fa7c5d020e8b58b60902a99b03cd20c78672f8bf0b4b",
+    "assets/index-D1CdPYQ7.css": "574f68939dac5ae94e0b4bd08a9200d770d93a176050d31fe04718c8e45f06ab"
+  },
+  "package_and_lock_unchanged": true,
+  "static_repo_prefix_asset_and_query_url_resolution": "PASS; no public hosting performed",
+  "new_network_transactions": 0,
+  "public_github_push_or_pages_publication": false,
+  "canonical_submission_network": "Stable GenLayer Studionet",
+  "phase6": "COMPLETE"
+}

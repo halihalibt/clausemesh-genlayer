@@ -1,0 +1,9 @@
+{
+  "method": "get_workspace_summaries",
+  "args": [
+    "0x7359Cea7513F4e1cF9a2A80948E818B5c0fe0B02"
+  ],
+  "result": [],
+  "expected": [],
+  "pass": true
+}

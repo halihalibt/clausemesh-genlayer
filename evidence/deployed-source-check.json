@@ -1,0 +1,6 @@
+{
+  "method": "eth_getTransactionByHash.data.contract_code",
+  "sha256": "457cd05dc9cee38a406545c86d91dafecd7837a67ed10571cc30490a327e30be",
+  "bytes": 15214,
+  "same_as_packaged_source": true
+}

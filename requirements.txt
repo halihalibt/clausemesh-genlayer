@@ -1,0 +1,2 @@
+# Exact compatible stable packages. Full resolved environment is locked below.
+-r requirements.lock.txt

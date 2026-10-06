@@ -1,0 +1,82 @@
+ClauseMesh / Handshake Map
+Studionet
+Connect Wallet
+← All Workspaces
+
+WORKSPACE #1
+
+Phase5 FirstRECONCILED
+Party A
+0x6af717e486acc643f5fd048906c48fa82d72f69d
+Party B
+0xe83a898534a5de26a45e8472f985c6130b2efc19
+Share Link
+http://terminal.local:4173/dist/?w=1
+Party A SEALED
+A1
+Reports must be exported as CSV.
+A2
+Invoices must be paid monthly.
+Party B SEALED
+B1
+Reports must never be exported as CSV.
+B2
+Invoices must be paid monthly.
+Consensus
+
+Reconciled
+
+Relation Matrix
+
+Exact accepted relations from the persisted matrix.
+
+Party A rows × Party B columns
+Party A / Party B	
+B1
+Reports must never be exported as CSV.
+	
+B2
+Invoices must be paid monthly.
+
+
+A1
+Reports must be exported as CSV.
+	Conflict	Unrelated
+
+A2
+Invoices must be paid monthly.
+	Unrelated	Equivalent
+Agreement Pairs
+1
+Conflict Pairs
+1
+Unrelated Pairs
+2
+Agreement Core
+A2 ↔ B2 · Equivalent
+
+Invoices must be paid monthly.
+
+Invoices must be paid monthly.
+
+Conflict Set
+A1 ↔ B1 · Conflict
+
+Reports must be exported as CSV.
+
+Reports must never be exported as CSV.
+
+Unrelated Pairs
+A1 ↔ B2 · Unrelated
+
+Reports must be exported as CSV.
+
+Invoices must be paid monthly.
+
+A2 ↔ B1 · Unrelated
+
+Invoices must be paid monthly.
+
+Reports must never be exported as CSV.
+
+CLAUSEMESH-V1 · Immutable inputs. Independent validators. Persistent relations.

@@ -1,0 +1,11 @@
+{
+  "check": "chain-id",
+  "endpoint": "https://studio.genlayer.com/api",
+  "contract_sha256": "457cd05dc9cee38a406545c86d91dafecd7837a67ed10571cc30490a327e30be",
+  "http_status": 200,
+  "response": {
+    "jsonrpc": "2.0",
+    "result": "0xf22f",
+    "id": 2
+  }
+}

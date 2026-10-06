@@ -1,0 +1,7 @@
+{
+  "genlayer_transaction_id": "0x1f69352263eba58efffc4c70e479ba695abc03d89349c1adbac32073adeb3be4",
+  "deployer_address": "0x7359Cea7513F4e1cF9a2A80948E818B5c0fe0B02",
+  "source_sha256": "457cd05dc9cee38a406545c86d91dafecd7837a67ed10571cc30490a327e30be",
+  "leader_only": false,
+  "initial_validators": 5
+}

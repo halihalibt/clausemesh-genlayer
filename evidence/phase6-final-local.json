@@ -1,0 +1,837 @@
+{
+  "scope": "Phase 2 local SDK storage and mocked consensus; chain rollback model explicitly simulated",
+  "exit_status": 0,
+  "passed": 138,
+  "failed": 0,
+  "skipped": 0,
+  "tests": [
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[UNRELATED-UNRELATED]",
+      "outcome": "passed",
+      "duration_seconds": 0.00321,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[UNRELATED-EQUIVALENT]",
+      "outcome": "passed",
+      "duration_seconds": 0.00276,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[UNRELATED-COMPATIBLE]",
+      "outcome": "passed",
+      "duration_seconds": 0.00313,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[UNRELATED-CONFLICT]",
+      "outcome": "passed",
+      "duration_seconds": 0.0029,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[EQUIVALENT-UNRELATED]",
+      "outcome": "passed",
+      "duration_seconds": 0.02757,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[EQUIVALENT-EQUIVALENT]",
+      "outcome": "passed",
+      "duration_seconds": 0.00277,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[EQUIVALENT-COMPATIBLE]",
+      "outcome": "passed",
+      "duration_seconds": 0.00282,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[EQUIVALENT-CONFLICT]",
+      "outcome": "passed",
+      "duration_seconds": 0.00294,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[COMPATIBLE-UNRELATED]",
+      "outcome": "passed",
+      "duration_seconds": 0.00281,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[COMPATIBLE-EQUIVALENT]",
+      "outcome": "passed",
+      "duration_seconds": 0.00309,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[COMPATIBLE-COMPATIBLE]",
+      "outcome": "passed",
+      "duration_seconds": 0.00284,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[COMPATIBLE-CONFLICT]",
+      "outcome": "passed",
+      "duration_seconds": 0.00391,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[CONFLICT-UNRELATED]",
+      "outcome": "passed",
+      "duration_seconds": 0.00294,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[CONFLICT-EQUIVALENT]",
+      "outcome": "passed",
+      "duration_seconds": 0.00298,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[CONFLICT-COMPATIBLE]",
+      "outcome": "passed",
+      "duration_seconds": 0.00295,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C01_C05_all_material_family_pairs[CONFLICT-CONFLICT]",
+      "outcome": "passed",
+      "duration_seconds": 0.00332,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_each_cell_material_disagreement[0]",
+      "outcome": "passed",
+      "duration_seconds": 0.00295,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_each_cell_material_disagreement[1]",
+      "outcome": "passed",
+      "duration_seconds": 0.00304,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_each_cell_material_disagreement[2]",
+      "outcome": "passed",
+      "duration_seconds": 0.00308,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_each_cell_material_disagreement[3]",
+      "outcome": "passed",
+      "duration_seconds": 0.00302,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C11_custom_boundary_schema_and_frozen_prompt",
+      "outcome": "passed",
+      "duration_seconds": 0.00625,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_C08_C12_identical_full_prompt_order_and_input_injection",
+      "outcome": "passed",
+      "duration_seconds": 0.00389,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_family_helper_rejects_noncanonical_codes[leader0-validator0]",
+      "outcome": "passed",
+      "duration_seconds": 8e-05,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_family_helper_rejects_noncanonical_codes[leader1-validator1]",
+      "outcome": "passed",
+      "duration_seconds": 0.00014,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_family_helper_rejects_noncanonical_codes[leader2-validator2]",
+      "outcome": "passed",
+      "duration_seconds": 8e-05,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_family_helper_rejects_noncanonical_codes[leader3-validator3]",
+      "outcome": "passed",
+      "duration_seconds": 9e-05,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_family_helper_rejects_noncanonical_codes[leader4-validator4]",
+      "outcome": "passed",
+      "duration_seconds": 8e-05,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_family_helper_rejects_noncanonical_codes[leader5-validator5]",
+      "outcome": "passed",
+      "duration_seconds": 9e-05,
+      "failure": null
+    },
+    {
+      "test": "tests/test_consensus.py::test_pinned_RPC_Address_wire_encoding_matches_contract_SDK",
+      "outcome": "passed",
+      "duration_seconds": 0.00016,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[not JSON]",
+      "outcome": "passed",
+      "duration_seconds": 0.00263,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[```json\\n{\"matrix\":[[\"EQUIVALENT\"]]}\\n```]",
+      "outcome": "passed",
+      "duration_seconds": 0.00456,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00257,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[],[]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00315,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[\"EQUIVALENT\",\"UNRELATED\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00256,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[\"EQUIVALENT\"],[\"EQUIVALENT\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00313,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[\"AGREEMENT\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00299,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[\"equivalent\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.0026,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[1]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00259,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[null]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00269,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[true]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00247,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[{}]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00255,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[\"EQUIVALENT\"]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00338,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":null}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00258,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[\"EQUIVALENT\"]],\"reason\":\"ok\"}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00288,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[\"EQUIVALENT\"]],\"matrix\":[[\"CONFLICT\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00263,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[[]]",
+      "outcome": "passed",
+      "duration_seconds": 0.00263,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[null]",
+      "outcome": "passed",
+      "duration_seconds": 0.00259,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[NaN]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00311,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C06_malformed_leader_no_state_mutation[{\"matrix\":[[\"EQUIVALENT\"]]} trailing prose]",
+      "outcome": "passed",
+      "duration_seconds": 0.00256,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[not JSON]",
+      "outcome": "passed",
+      "duration_seconds": 0.0029,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[```json\\n{\"matrix\":[[\"EQUIVALENT\"]]}\\n```]",
+      "outcome": "passed",
+      "duration_seconds": 0.00285,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00334,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[],[]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00261,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[\"EQUIVALENT\",\"UNRELATED\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00284,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[\"EQUIVALENT\"],[\"EQUIVALENT\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00285,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[\"AGREEMENT\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00306,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[\"equivalent\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00286,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[1]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00278,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[null]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00352,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[true]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.003,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[{}]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00278,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[\"EQUIVALENT\"]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00267,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":null}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00291,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[\"EQUIVALENT\"]],\"reason\":\"ok\"}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00434,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[\"EQUIVALENT\"]],\"matrix\":[[\"CONFLICT\"]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.0033,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[[]]",
+      "outcome": "passed",
+      "duration_seconds": 0.00269,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[null]",
+      "outcome": "passed",
+      "duration_seconds": 0.00261,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[NaN]]}]",
+      "outcome": "passed",
+      "duration_seconds": 0.00895,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_C07_malformed_validator_never_approves[{\"matrix\":[[\"EQUIVALENT\"]]} trailing prose]",
+      "outcome": "passed",
+      "duration_seconds": 0.00296,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_failure_lifecycle_returns_READY[leader_failure]",
+      "outcome": "passed",
+      "duration_seconds": 0.00249,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_failure_lifecycle_returns_READY[leader_timeout]",
+      "outcome": "passed",
+      "duration_seconds": 0.00265,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_failure_lifecycle_returns_READY[validator_failure]",
+      "outcome": "passed",
+      "duration_seconds": 0.00308,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_failure_lifecycle_returns_READY[validator_timeout]",
+      "outcome": "passed",
+      "duration_seconds": 0.00405,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_failure_lifecycle_returns_READY[FAILED]",
+      "outcome": "passed",
+      "duration_seconds": 0.00276,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_failure_lifecycle_returns_READY[REJECTED]",
+      "outcome": "passed",
+      "duration_seconds": 0.00267,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_failure_lifecycle_returns_READY[UNDETERMINED]",
+      "outcome": "passed",
+      "duration_seconds": 0.0028,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_invalid_wrapped_leader_never_runs_validator_AI",
+      "outcome": "passed",
+      "duration_seconds": 0.00234,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_parser_rejects_non_text[None]",
+      "outcome": "passed",
+      "duration_seconds": 0.00012,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_parser_rejects_non_text[value1]",
+      "outcome": "passed",
+      "duration_seconds": 0.00012,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_parser_rejects_non_text[value2]",
+      "outcome": "passed",
+      "duration_seconds": 0.00012,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_parser_rejects_non_text[1]",
+      "outcome": "passed",
+      "duration_seconds": 0.00012,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_parser_rejects_non_text[True]",
+      "outcome": "passed",
+      "duration_seconds": 0.00012,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_manual_reconcile_after_definite_mock_disagreement",
+      "outcome": "passed",
+      "duration_seconds": 0.00297,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_final_accepted_boundary_output_reparsed",
+      "outcome": "passed",
+      "duration_seconds": 0.00108,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_server_error_evidence_never_retains_sensitive_configuration[ALREADY_RECONCILED]",
+      "outcome": "passed",
+      "duration_seconds": 0.00028,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_server_error_evidence_never_retains_sensitive_configuration[INVALID_CONSENSUS_OUTPUT]",
+      "outcome": "passed",
+      "duration_seconds": 0.00028,
+      "failure": null
+    },
+    {
+      "test": "tests/test_failures.py::test_server_error_evidence_never_retains_sensitive_configuration[None]",
+      "outcome": "passed",
+      "duration_seconds": 0.00024,
+      "failure": null
+    },
+    {
+      "test": "tests/test_permissions.py::test_T02_counterparty[zero]",
+      "outcome": "passed",
+      "duration_seconds": 0.00028,
+      "failure": null
+    },
+    {
+      "test": "tests/test_permissions.py::test_T02_counterparty[self]",
+      "outcome": "passed",
+      "duration_seconds": 0.00029,
+      "failure": null
+    },
+    {
+      "test": "tests/test_permissions.py::test_T05_only_B_can_respond[a]",
+      "outcome": "passed",
+      "duration_seconds": 0.0008,
+      "failure": null
+    },
+    {
+      "test": "tests/test_permissions.py::test_T05_only_B_can_respond[t]",
+      "outcome": "passed",
+      "duration_seconds": 0.00061,
+      "failure": null
+    },
+    {
+      "test": "tests/test_permissions.py::test_T06_double_seal",
+      "outcome": "passed",
+      "duration_seconds": 0.00109,
+      "failure": null
+    },
+    {
+      "test": "tests/test_permissions.py::test_T07_not_ready_no_AI",
+      "outcome": "passed",
+      "duration_seconds": 0.00069,
+      "failure": null
+    },
+    {
+      "test": "tests/test_permissions.py::test_permissionless_and_T08_success_immutable[a]",
+      "outcome": "passed",
+      "duration_seconds": 0.00317,
+      "failure": null
+    },
+    {
+      "test": "tests/test_permissions.py::test_permissionless_and_T08_success_immutable[b]",
+      "outcome": "passed",
+      "duration_seconds": 0.00419,
+      "failure": null
+    },
+    {
+      "test": "tests/test_permissions.py::test_permissionless_and_T08_success_immutable[t]",
+      "outcome": "passed",
+      "duration_seconds": 0.00368,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T01_creation_and_T04_response",
+      "outcome": "passed",
+      "duration_seconds": 0.00106,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_inclusive_bounds[abc-]",
+      "outcome": "passed",
+      "duration_seconds": 0.00084,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_inclusive_bounds[abc-   ]",
+      "outcome": "passed",
+      "duration_seconds": 0.00088,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_inclusive_bounds[abc-\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57]",
+      "outcome": "passed",
+      "duration_seconds": 0.00102,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_inclusive_bounds[\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57-]",
+      "outcome": "passed",
+      "duration_seconds": 0.00092,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_inclusive_bounds[\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57-   ]",
+      "outcome": "passed",
+      "duration_seconds": 0.00086,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_inclusive_bounds[\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57-\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57\\u5b57]",
+      "outcome": "passed",
+      "duration_seconds": 0.00093,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses0-INVALID_CLAUSE_COUNT-a]",
+      "outcome": "passed",
+      "duration_seconds": 0.0003,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses0-INVALID_CLAUSE_COUNT-b]",
+      "outcome": "passed",
+      "duration_seconds": 0.00073,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses1-INVALID_CLAUSE_COUNT-a]",
+      "outcome": "passed",
+      "duration_seconds": 0.00021,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses1-INVALID_CLAUSE_COUNT-b]",
+      "outcome": "passed",
+      "duration_seconds": 0.0012,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses2-INVALID_CLAUSE-a]",
+      "outcome": "passed",
+      "duration_seconds": 0.00028,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses2-INVALID_CLAUSE-b]",
+      "outcome": "passed",
+      "duration_seconds": 0.00061,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses3-INVALID_CLAUSE-a]",
+      "outcome": "passed",
+      "duration_seconds": 0.00022,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses3-INVALID_CLAUSE-b]",
+      "outcome": "passed",
+      "duration_seconds": 0.00061,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses4-INVALID_CLAUSE-a]",
+      "outcome": "passed",
+      "duration_seconds": 0.00025,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses4-INVALID_CLAUSE-b]",
+      "outcome": "passed",
+      "duration_seconds": 0.0006,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses5-INVALID_CLAUSE-a]",
+      "outcome": "passed",
+      "duration_seconds": 0.00027,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses5-INVALID_CLAUSE-b]",
+      "outcome": "passed",
+      "duration_seconds": 0.00068,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses6-INVALID_CLAUSE-a]",
+      "outcome": "passed",
+      "duration_seconds": 0.0002,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_clauses_no_partial_write[clauses6-INVALID_CLAUSE-b]",
+      "outcome": "passed",
+      "duration_seconds": 0.00071,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_label[xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx]",
+      "outcome": "passed",
+      "duration_seconds": 0.00025,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T03_invalid_label[None]",
+      "outcome": "passed",
+      "duration_seconds": 0.00025,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_duplicate_creation_and_history_order",
+      "outcome": "passed",
+      "duration_seconds": 0.00174,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[get_workspace-0]",
+      "outcome": "passed",
+      "duration_seconds": 0.00071,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[get_workspace--1]",
+      "outcome": "passed",
+      "duration_seconds": 0.00075,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[get_workspace-2]",
+      "outcome": "passed",
+      "duration_seconds": 0.00069,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[get_workspace-True]",
+      "outcome": "passed",
+      "duration_seconds": 0.00069,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[respond_and_seal-0]",
+      "outcome": "passed",
+      "duration_seconds": 0.00068,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[respond_and_seal--1]",
+      "outcome": "passed",
+      "duration_seconds": 0.0008,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[respond_and_seal-2]",
+      "outcome": "passed",
+      "duration_seconds": 0.00071,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[respond_and_seal-True]",
+      "outcome": "passed",
+      "duration_seconds": 0.00084,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[reconcile-0]",
+      "outcome": "passed",
+      "duration_seconds": 0.00072,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[reconcile--1]",
+      "outcome": "passed",
+      "duration_seconds": 0.00075,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[reconcile-2]",
+      "outcome": "passed",
+      "duration_seconds": 0.00068,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[reconcile-True]",
+      "outcome": "passed",
+      "duration_seconds": 0.00077,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[get_relation-0]",
+      "outcome": "passed",
+      "duration_seconds": 0.00083,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[get_relation--1]",
+      "outcome": "passed",
+      "duration_seconds": 0.00084,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[get_relation-2]",
+      "outcome": "passed",
+      "duration_seconds": 0.00068,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T09_workspace_ids[get_relation-True]",
+      "outcome": "passed",
+      "duration_seconds": 0.0007,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_T10_relation_row_major_and_derived_sets",
+      "outcome": "passed",
+      "duration_seconds": 0.00514,
+      "failure": null
+    },
+    {
+      "test": "tests/test_state.py::test_C09_maximum_4x4",
+      "outcome": "passed",
+      "duration_seconds": 0.00357,
+      "failure": null
+    }
+  ]
+}

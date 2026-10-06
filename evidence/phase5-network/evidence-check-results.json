@@ -1,0 +1,159 @@
+{
+  "scope": "Offline assertions on newly captured real production-browser Studionet evidence; not new transactions or mocked-network successes",
+  "canonical_contract": "0x0Dcb5F452412aB73b32149ad1e082533D929Ed73",
+  "passed": 34,
+  "failed": 0,
+  "accepted_leader_raw": "{\"matrix\":[[\"CONFLICT\",\"UNRELATED\"],[\"UNRELATED\",\"EQUIVALENT\"]]}",
+  "accepted_leader_matrix": [
+    3,
+    0,
+    0,
+    1
+  ],
+  "persisted_matrix": [
+    3,
+    0,
+    0,
+    1
+  ],
+  "validator_agree": 3,
+  "validator_idle": 2,
+  "checks": [
+    {
+      "name": "Studionet chain 61999 and new canonical destination",
+      "result": "PASS"
+    },
+    {
+      "name": "Remote source load and deployed source match fixed canonical SHA",
+      "result": "PASS"
+    },
+    {
+      "name": "Remote schema exactly six methods, three writes and three views",
+      "result": "PASS"
+    },
+    {
+      "name": "Deployment FINALIZED / MAJORITY_AGREE / SUCCESS",
+      "result": "PASS"
+    },
+    {
+      "name": "Exactly one deployment, two creates, two seals and one reconciliation",
+      "result": "PASS"
+    },
+    {
+      "name": "deploy finalized successful execution",
+      "result": "PASS"
+    },
+    {
+      "name": "create_workspace:Phase5 First finalized successful execution",
+      "result": "PASS"
+    },
+    {
+      "name": "create_workspace:Phase5 Second finalized successful execution",
+      "result": "PASS"
+    },
+    {
+      "name": "respond_and_seal:2 finalized successful execution",
+      "result": "PASS"
+    },
+    {
+      "name": "respond_and_seal:1 finalized successful execution",
+      "result": "PASS"
+    },
+    {
+      "name": "reconcile finalized successful execution",
+      "result": "PASS"
+    },
+    {
+      "name": "Create returned exact ID 1",
+      "result": "PASS"
+    },
+    {
+      "name": "Create returned exact ID 2",
+      "result": "PASS"
+    },
+    {
+      "name": "Creates signed by A, seals signed by B in order 2 then 1",
+      "result": "PASS"
+    },
+    {
+      "name": "B only enters history after response: #2-only stage",
+      "result": "PASS"
+    },
+    {
+      "name": "Final B summaries are contract ascending [1,2]",
+      "result": "PASS"
+    },
+    {
+      "name": "Final A summaries remain contract ascending [1,2]",
+      "result": "PASS"
+    },
+    {
+      "name": "Real production history A displays #2 before #1",
+      "result": "PASS"
+    },
+    {
+      "name": "Real production history B displays #2 before #1",
+      "result": "PASS"
+    },
+    {
+      "name": "Single aggregate read per recorded history operation, no per-cell reads",
+      "result": "PASS"
+    },
+    {
+      "name": "Both workspaces start with sealed A and WAITING_FOR_B",
+      "result": "PASS"
+    },
+    {
+      "name": "Both responses reach READY without a matrix",
+      "result": "PASS"
+    },
+    {
+      "name": "Five initial validators, majority 3 agree and 2 idle",
+      "result": "PASS"
+    },
+    {
+      "name": "At least two independent agreeing Validators with real LLM execution evidence",
+      "result": "PASS"
+    },
+    {
+      "name": "One equivalence block carries accepted Leader matrix",
+      "result": "PASS"
+    },
+    {
+      "name": "Persisted matrix comes from accepted Leader exact codes",
+      "result": "PASS"
+    },
+    {
+      "name": "Finalized persisted state RECONCILED with sealed inputs",
+      "result": "PASS"
+    },
+    {
+      "name": "Immutable A/B clauses across all state reads",
+      "result": "PASS"
+    },
+    {
+      "name": "Exact deterministic Agreement Core, Conflict Set and Unrelated pairs",
+      "result": "PASS"
+    },
+    {
+      "name": "Successful workspace has no reconciliation action",
+      "result": "PASS"
+    },
+    {
+      "name": "Reload retains original reconcile ID and only public metadata",
+      "result": "PASS"
+    },
+    {
+      "name": "Lifecycle resumes queries on original ID after reload",
+      "result": "PASS"
+    },
+    {
+      "name": "Final full reload restores exact finalized chain state",
+      "result": "PASS"
+    },
+    {
+      "name": "No automatic write resend and no exported credential data",
+      "result": "PASS"
+    }
+  ]
+}

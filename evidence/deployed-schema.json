@@ -1,0 +1,117 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "create_workspace": {
+        "params": [
+          [
+            "counterparty",
+            "address"
+          ],
+          [
+            "label",
+            "string"
+          ],
+          [
+            "clauses_a",
+            [
+              {
+                "$rep": "string"
+              }
+            ]
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      },
+      "get_relation": {
+        "params": [
+          [
+            "workspace_id",
+            "int"
+          ],
+          [
+            "a_index",
+            "int"
+          ],
+          [
+            "b_index",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "int"
+      },
+      "get_workspace": {
+        "params": [
+          [
+            "workspace_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": {
+          "$dict": "any"
+        }
+      },
+      "get_workspace_summaries": {
+        "params": [
+          [
+            "address",
+            "address"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": [
+          {
+            "$rep": {
+              "$dict": "any"
+            }
+          }
+        ]
+      },
+      "reconcile": {
+        "params": [
+          [
+            "workspace_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "null",
+        "payable": false
+      },
+      "respond_and_seal": {
+        "params": [
+          [
+            "workspace_id",
+            "int"
+          ],
+          [
+            "clauses_b",
+            [
+              {
+                "$rep": "string"
+              }
+            ]
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "null",
+        "payable": false
+      }
+    }
+  },
+  "id": 1
+}

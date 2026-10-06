@@ -1,0 +1,27 @@
+{
+  "protocol": "CLAUSEMESH-V1",
+  "canonical_source": "contracts/clause_mesh.py",
+  "source_sha256": "5489c4c66471af9c5bfc5607d8f4640e22ebac0cfca36ce63ee762c038444830",
+  "canonical_deployment": {
+    "network": "GenLayer Stable Studionet",
+    "chain_id": 61999,
+    "contract_address": "0x0Dcb5F452412aB73b32149ad1e082533D929Ed73",
+    "roles": [
+      "Canonical Deployment",
+      "Development/Test Deployment",
+      "Final Submission Deployment",
+      "Project frontend canonical Contract"
+    ],
+    "deployment_tx": "0xbb4e6c59c6b997eb81e8123178c4e437f6316c9c134241a796b1a838ebb16eeb",
+    "status": "FINALIZED / MAJORITY_AGREE / SUCCESS"
+  },
+  "reconciliation_tx": "0x73468ab79503a1151eddd3ec0c31af5c4836b5eb4b902325dbdbb71d97a53d0c",
+  "persisted_relation_matrix": [
+    3,
+    0,
+    0,
+    1
+  ],
+  "public_demo_url": null,
+  "external_github_push": false
+}
